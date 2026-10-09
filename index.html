@@ -1,0 +1,223 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#090914">
+  <title>My RGB Profile | MD Kaif Ali Ansari</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="rgb-bg"></div>
+
+  <header class="navbar">
+    <a href="#home" class="logo">KAIF<span>.</span></a>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#social">Social</a>
+      <a href="#contact">Contact</a>
+      <a href="tel:+919661364078">+91 9661364078</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="profile-ring">
+        <img src="profile.jpg" alt="My Profile"
+             onerror="this.style.display='none'">
+        <span class="avatar-fallback">KAIF</span>
+      </div>
+
+      <p class="tag">WELCOME TO MY WORLD</p>
+      <h1>Hi, I'm <span class="gradient-text">MD KAIF ALI ANSARI</span></h1>
+      <h2>AI &amp; Data Science Student</h2>
+      <p class="intro">
+        Student life, new dreams, new goals.
+        This is my personal space on the internet.
+      </p>
+      <a href="#about" class="glow-btn">Explore My Profile ↓</a>
+    </section>
+
+    <section class="section" id="about">
+      <p class="tag">GET TO KNOW ME</p>
+      <h2 class="section-title">My <span>Details</span></h2>
+
+      <div class="details-grid">
+        <article class="detail-card">
+          <span class="emoji">👤</span>
+          <h3>Full Name</h3>
+          <p>MD Kaif Ali Ansari</p>
+        </article>
+
+        <article class="detail-card">
+          <span class="emoji">🎓</span>
+          <h3>College</h3>
+        
+          <p>T.J.S Engineering College</p>
+        </article>
+
+        <article class="detail-card">
+          <span class="emoji">💻</span>
+          <h3>Department</h3>
+          <p>Artificial Intelligence &amp; Data Science</p>
+        </article>
+
+        <article class="detail-card">
+          <span class="emoji">📚</span>
+          <h3>Education</h3>
+          <p>B.Tech / B.E. - 2nd Year</p>
+        </article>
+
+        <article class="detail-card">
+          <span class="emoji">🚀</span>
+          <h3>My Interests</h3>
+          <p>Coding, Technology, Gaming</p>
+        </article>
+
+        <article class="detail-card">
+          <span class="emoji">🎯</span>
+          <h3> y girl </h3>
+          <p>One Heart, One Love, Always Loyal ♾️❤️</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="social">
+      
+      <p class="tag">LET'S CONNECT</p>
+      <p class="privacy-note">
+        Yeh meri Instagram aur Snapchat IDs hain. ❤️ Aap mujhe dono platforms par connect kar sakte hain. Agar aap meri posts ko like aur comment karenge, toh mujhe bahut khushi hogi. Aapka support mere liye bahut! 🫶✨
+
+    </p>
+      <h2 class="section-title">My <span>Socials</span></h2>
+
+      <div class="social-grid">
+
+        <!-- Instagram Profile -->
+        <article class="social-card instagram">
+          <div class="social-image">
+            <img src="instagram.jpg"
+                 alt="Instagram profile"
+                 onerror="this.style.display='none'">
+            <span class="social-fallback">📸</span>
+          </div>
+
+          <h3>Instagram</h3>
+          <p id="instagramName">@mohammadkaif2357</p>
+
+          <a href="https://www.instagram.com/mohammadkaif2357/"
+             target="_blank"
+             rel="noopener noreferrer"
+             class="social-btn">
+            Open Instagram ↗
+          </a>
+        </article>
+
+        <!-- Snapchat Profile -->
+        <article class="social-card snapchat">
+          <div class="social-image">
+            <img src="snapchat.jpg"
+                 alt="Snapchat profile"
+                 onerror="this.style.display='none'">
+            <span class="social-fallback">👻</span>
+          </div>
+
+          <h3>Snapchat</h3>
+          <p id="snapchatName">mohammadkai7325</p>
+
+          <a href="https://www.snapchat.com/add/mohammadkai7325"
+             target="_blank"
+             rel="noopener noreferrer"
+             class="social-btn">
+            Open Snapchat ↗
+          </a>
+        </article>
+
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <p class="tag">GET IN TOUCH</p>
+      <h2 class="section-title">Contact <span>Me</span></h2>
+      <p class="contact-intro">
+        Want to connect? Fill in your details below voluntarily.
+      </p>
+
+    
+<section class="section contact-section" id="contact">
+  <p class="tag">GET IN TOUCH</p>
+  <h2 class="section-title">Contact <span>Me</span></h2>
+
+  <p class="contact-intro">
+    Fill in your details to connect with me.
+  </p>
+
+  <form id="contactForm" class="contact-form">
+
+    <label for="visitorName">Your Name</label>
+    <input
+      id="visitorName"
+      name="name"
+      type="text"
+      placeholder="Enter your name"
+      maxlength="80"
+      required
+    >
+
+    <label for="visitorPhone">Mobile Number</label>
+    <input
+      id="visitorPhone"
+      name="mobile"
+      type="tel"
+      placeholder="Enter your mobile number"
+      pattern="[0-9]{10}"
+      maxlength="10"
+      required
+    >
+
+    <label for="visitorEmail">Email Address</label>
+    <input
+      id="visitorEmail"
+      name="email"
+      type="email"
+      placeholder="Enter your email"
+      required
+    >
+
+    <p class="privacy-note">
+      Your details will be stored only after the form is
+      connected to a secure database.
+    </p>
+
+    <button class="glow-btn submit-btn" type="submit">
+      Submit Details
+    </button>
+
+    <p id="formMessage" role="status" aria-live="polite"></p>
+
+  </form>
+</section>
+
+        <p class="privacy-note">
+          Your number is requested only with your consent.
+          This demo does not send or save your information.
+        </p>
+
+   
+        <p id="formMessage" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>Made with ❤️ by <span>MD Kaif Ali Ansari</span></p>
+    <p>© <span id="year"></span> My Personal Website</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+```
